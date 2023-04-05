@@ -2,18 +2,4 @@ extends layout
 
 block content
   h1= title
-  p Hemanth Sai Kagitha's S23wb91kagitha LAB #{title}
-     button(type="button", class="btn btn-secondary") Press Me
-
-     div(id="reduce" ) REDUCE THE VALUE 
-     a(href="deodorant") Link 
-     script.
-      let count = 20;
-      let change = -1;
-      reduce = () => {
-        count = count + change;
-        change = change - 1;
-        console.log(count,change,"Reduce function output");
-        document.querySelector("#reduce").innerHTML = `Count is ${count} and Change is ${change}`;
-      }
-   
+  p Welcome to #{title}
